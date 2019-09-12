@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Image from './picture/index';
+import Button from './button/index';
 
 // const header = <h1>Hello react</h1>
 // const image = <img height="200" width="300" src="https://static.toiimg.com/thumb/58515713/Nice-in-pictures.jpg?width=748&height=499"></img>
@@ -21,6 +22,7 @@ function App() {
 
     <Image/>
 
+    <Button text="this is an example for button from component"/>
 
     </div>
 
